@@ -1,15 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/MoveToInbox';
 import MenuIcon from '@material-ui/icons/Menu';
+import {Link} from 'react-router-dom';
 
 import './NavDrawer.css';
 
@@ -41,21 +37,24 @@ function SwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(side, false)}
     >
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+          <ListItem button key=''>
+            <ListItemText primary={<Link to='/'>Home</Link>} />
           </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+          <ListItem button key=''>
+            <ListItemText primary={<Link to='/weddings'>Weddings</Link>} />
           </ListItem>
-        ))}
+          <ListItem button key=''>
+            <ListItemText primary={<Link to='/parties'>Parties</Link>} />
+          </ListItem>
+          <ListItem button key=''>
+            <ListItemText primary={<Link to='/events'>Events</Link>} />
+          </ListItem>
+          <ListItem button key=''>
+            <ListItemText primary={<Link to='/about'>About</Link>} />
+          </ListItem>
+          <ListItem button key=''>
+            <ListItemText primary={<Link to='/contact'>Contact</Link>} />
+          </ListItem>
       </List>
     </div>
   );
@@ -65,7 +64,7 @@ function SwipeableTemporaryDrawer() {
       <div 
         className="menuButton" 
         onClick={toggleDrawer('right', true)}>
-            <img src="http://www.sclance.com/pngs/hamburger-menu-icon-png/hamburger_menu_icon_png_631564.png" alt="" />
+            <MenuIcon fontSize='large' htmlColor='white' />
     </div>
       <SwipeableDrawer
         anchor="right"
