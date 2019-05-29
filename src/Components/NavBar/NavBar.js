@@ -11,22 +11,24 @@ export default function NavBar() {
     <div id="wrapper">
       <div id="navLinks">
         <Link to="/">Home</Link>
-        <Link to="/weddings">Weddings</Link>
-        <Link to="/parties">Parties</Link>
+        <Link to="/family">Family & Portraits</Link>
+        <Link to="/couples">Couples</Link>
+        <Link to="/live">Live</Link>
         <Link to="/">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Pan_Am_Logo.svg/1200px-Pan_Am_Logo.svg.png"
+            src={require('../../Images/LandoLaneLogo.svg')}
             alt=""
           />
         </Link>
-        <Link to="/events">Events</Link>
+        <Link to="/travel">Travel</Link>
+        <Link to="/products">Product Photography</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </div>
       <div id="drawerWrapper">
         <Link to="/">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Pan_Am_Logo.svg/1200px-Pan_Am_Logo.svg.png"
+            src={require('../../Images/LandoLaneLogo.svg')}
             alt=""
           />
         </Link>

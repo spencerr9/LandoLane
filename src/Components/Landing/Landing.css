@@ -1,0 +1,19 @@
+.Landing {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Photo1 {
+    background-image: url("../../Images/flowers.jpg");
+}
+
+.Photo2 {
+    background-image: url("../../Images/couple2.jpg");
+}
+
+.Photo3 {
+    background-image: url("../../Images/couple3.jpg");
+}

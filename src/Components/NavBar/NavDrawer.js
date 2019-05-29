@@ -37,23 +37,29 @@ function SwipeableTemporaryDrawer() {
       onKeyDown={toggleDrawer(side, false)}
     >
       <List>
-          <ListItem button key=''>
+          <ListItem button>
             <ListItemText primary={<Link to='/'>Home</Link>} />
           </ListItem>
-          <ListItem button key=''>
-            <ListItemText primary={<Link to='/weddings'>Weddings</Link>} />
+          <ListItem button>
+            <ListItemText primary={<Link to='/family'>Family & Portraits</Link>} />
           </ListItem>
-          <ListItem button key=''>
-            <ListItemText primary={<Link to='/parties'>Parties</Link>} />
+          <ListItem button>
+            <ListItemText primary={<Link to='/couples'>Couples</Link>} />
           </ListItem>
-          <ListItem button key=''>
-            <ListItemText primary={<Link to='/events'>Events</Link>} />
+          <ListItem button>
+            <ListItemText primary={<Link to='/live'>live</Link>} />
           </ListItem>
-          <ListItem button key=''>
-            <ListItemText primary={<Link to='/about'>About</Link>} />
+          <ListItem button>
+            <ListItemText primary={<Link to='/travel'>travel</Link>} />
           </ListItem>
-          <ListItem button key=''>
-            <ListItemText primary={<Link to='/contact'>Contact</Link>} />
+          <ListItem button>
+            <ListItemText primary={<Link to='/productphotography'>product photography</Link>} />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary={<Link to='/about'>about</Link>} />
+          </ListItem>
+          <ListItem button>
+            <ListItemText primary={<Link to='/contact'>contact</Link>} />
           </ListItem>
       </List>
     </div>
