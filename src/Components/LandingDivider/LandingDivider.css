@@ -1,14 +1,14 @@
-#wrapper {
-    height: 450px;
+#landingDividerWrapper {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 50px 0;
 }
 
 .pictureDiv {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,4 +17,45 @@
 
 .hidden {
     display: none;
+}
+
+.wordsContainer {
+    width: 60%;
+    text-align: center;
+    line-height: 130%;
+}
+
+h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 130%;
+}
+
+p {
+    padding: 25px 0;
+}
+
+.dividerButtons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px){
+    #landingDividerWrapper {
+        flex-direction: column;
+    }
+
+    .pictureDiv {
+        margin: 0 0 45px 0;
+    }
+
+    .wordsContainer {
+        width: 90%;
+    }
+
+    .dividerButtons {
+        flex-direction: column;
+        height: 130px;
+        /* background-color: greenyellow; */
+    }
 }
