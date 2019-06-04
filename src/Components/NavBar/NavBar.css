@@ -3,6 +3,11 @@
 #wrapper {
     font-family: 'Noto Sans HK', sans-serif;
     font-weight: 700;
+    position: absolute;
+    top: 0;
+    background: none;
+    z-index: 1;
+    width: 100%;
 }
 
 #navLinks {
@@ -21,7 +26,7 @@
 
 a {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 a:hover {

@@ -1,0 +1,15 @@
+.connectOnIGWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.IGtitleButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    justify-content: space-evenly;
+}

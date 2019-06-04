@@ -9,13 +9,17 @@
 }
 
 .Photo1 {
-    background-image: url("../../Images/flowers.jpg");
+    background-image: url("../../Images/flowers.webp");
 }
 
 .Photo2 {
-    background-image: url("../../Images/couple2.jpg");
+    background-image: url("../../Images/couple2.webp");
 }
 
 .Photo3 {
-    background-image: url("../../Images/couple3.jpg");
+    background-image: url("../../Images/couple3.webp");
+}
+
+.Photo4 {
+    background-image: url("../../Images/couple4.webp");
 }
