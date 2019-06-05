@@ -11,7 +11,7 @@ export default function NavBar() {
     <div id="wrapper">
       <div id="navLinks">
         <Link to="/">Home</Link>
-        <Link to="/family">Family & Portraits</Link>
+        <Link to="/familyportraits">Family & Portraits</Link>
         <Link to="/couples">Couples</Link>
         <Link to="/live">Live</Link>
         <Link to="/">

@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar'
 
-export default function Weddings(){
+export default function Couples(){
     return(
         <div>
             <NavBar />
-            <h1>Weddings Component</h1>
+            <h1>Couples Component</h1>
         </div>
     )
 }

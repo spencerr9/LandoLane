@@ -41,7 +41,7 @@ function SwipeableTemporaryDrawer() {
             <ListItemText primary={<Link to='/'>Home</Link>} />
           </ListItem>
           <ListItem button>
-            <ListItemText primary={<Link to='/family'>Family & Portraits</Link>} />
+            <ListItemText primary={<Link to='/familyportraits'>Family & Portraits</Link>} />
           </ListItem>
           <ListItem button>
             <ListItemText primary={<Link to='/couples'>Couples</Link>} />
@@ -53,7 +53,7 @@ function SwipeableTemporaryDrawer() {
             <ListItemText primary={<Link to='/travel'>travel</Link>} />
           </ListItem>
           <ListItem button>
-            <ListItemText primary={<Link to='/productphotography'>product photography</Link>} />
+            <ListItemText primary={<Link to='/products'>product photography</Link>} />
           </ListItem>
           <ListItem button>
             <ListItemText primary={<Link to='/about'>about</Link>} />
