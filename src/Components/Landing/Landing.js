@@ -6,9 +6,10 @@ import LandingDivider from "../LandingDivider/LandingDivider";
 import ConnectOnIG from "../ConnectOnIG/ConnectOnIG";
 
 function Landing() {
+    const parallaxStr = 500
   return (
     <div>
-      <Parallax bgImage={require("../../Images/flowers.webp")} strength={500}>
+      <Parallax bgImage={require("../../Images/flowers.jpg")} strength={parallaxStr}>
         <div style={{ height: "100vh" }} />
       </Parallax>
       {/* <div className='Landing Photo1'></div> */}
@@ -19,7 +20,7 @@ function Landing() {
         button1Text="Get to know me"
         // button2Text='click me'
       />
-      <Parallax bgImage={require("../../Images/couple2.webp")} strength={500}>
+      <Parallax bgImage={require("../../Images/portrait1.jpg")} strength={parallaxStr}>
         <div style={{ height: "100vh" }} />
       </Parallax>
       {/* <div className="Landing Photo2" /> */}
@@ -30,7 +31,7 @@ function Landing() {
         button1Text="Adventure Elopements"
         button2Text="Destination Intimate Weddings"
       />
-      <Parallax bgImage={require("../../Images/couple3.webp")} strength={500}>
+      <Parallax bgImage={require("../../Images/couple3.jpg")} strength={parallaxStr}>
         <div style={{ height: "100vh" }} />
       </Parallax>
       {/* <div className="Landing Photo3" /> */}
@@ -41,7 +42,7 @@ function Landing() {
         button1Text="explore adventure sessions"
         // button2Text='Destination Intimate Weddings'
       />
-      <Parallax bgImage={require("../../Images/couple4.webp")} strength={500}>
+      <Parallax bgImage={require("../../Images/couple5.jpg")} strength={parallaxStr}>
         <div style={{ height: "100vh" }} />
       </Parallax>
       {/* <div className="Landing Photo4" /> */}

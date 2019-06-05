@@ -1,0 +1,21 @@
+.footerWrapper {
+    background: rgb(75, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.footerText {
+    text-align: center;
+    color: white;
+    width: 85%;
+}
+
+.footerText > p {
+    padding: 10px 0;
+}
+
+.footerText > button {
+    margin: 20px;
+}

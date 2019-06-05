@@ -1,11 +1,9 @@
-.Landing {
+/* .Landing {
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* position: absolute; */
-    /* top: -100px; */
 }
 
 .Photo1 {
@@ -22,4 +20,4 @@
 
 .Photo4 {
     background-image: url("../../Images/couple4.webp");
-}
+} */

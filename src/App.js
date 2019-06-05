@@ -3,8 +3,9 @@ import React from 'react';
 import './reset.css';
 import './App.css';
 
-import NavBar from './Components/NavBar/NavBar'
-import Landing from './Components/Landing/Landing'
+import NavBar from './Components/NavBar/NavBar';
+import Landing from './Components/Landing/Landing';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="Landing">
         <NavBar />
         <Landing />
+        <Footer />
       </div>
     </div>
   );

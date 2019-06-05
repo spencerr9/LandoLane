@@ -25,13 +25,13 @@
     line-height: 130%;
 }
 
-h1 {
+.wordsContainer > h1 {
     font-size: 25px;
     text-transform: uppercase;
     line-height: 130%;
 }
 
-p {
+.wordsContainer > p {
     padding: 25px 0;
 }
 
