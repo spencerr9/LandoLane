@@ -35,7 +35,7 @@ ReactDOM.render(
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-
+//Importing google font using webfontloader npm package
 WebFont.load({
     google: {
         families: ['Noto Sans HK: 400, 700', 'sans-serif']
