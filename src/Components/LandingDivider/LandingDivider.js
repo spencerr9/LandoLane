@@ -4,6 +4,11 @@ import "./LandingDivider.css";
 import Button from "@material-ui/core/Button";
 
 export default function LandingDivider(props) {
+  let styles = {
+    buttonFont: {
+        fontFamily: 'Noto Sans HK, sans-serif'
+    }
+}
   return (
     <div id="landingDividerWrapper">
       {(() => {
@@ -19,10 +24,10 @@ export default function LandingDivider(props) {
             if (props.button2Text && props.button1Text) {
               return (
                 <div className="dividerButtons">
-                  <Button variant="outlined" size="large">
+                  <Button variant="outlined" size="large" style={styles.buttonFont}>
                     {props.button1Text}
                   </Button>
-                  <Button variant="outlined" size="large">
+                  <Button variant="outlined" size="large" style={styles.buttonFont}>
                     {props.button2Text}
                   </Button>
                 </div>
@@ -33,6 +38,7 @@ export default function LandingDivider(props) {
                   variant="outlined"
                   size="large"
                   // color="primary"
+                  style={styles.buttonFont}
                 >
                   {props.button1Text}
                 </Button>

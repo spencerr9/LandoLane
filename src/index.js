@@ -13,6 +13,8 @@ import Products from './Components/Products/Products';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 
+import WebFont from 'webfontloader';
+
 ReactDOM.render(
     <HashRouter>
         <Switch>
@@ -32,3 +34,10 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+WebFont.load({
+    google: {
+        families: ['Noto Sans HK: 400, 700', 'sans-serif']
+    }
+})

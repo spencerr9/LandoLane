@@ -9,7 +9,7 @@ export default function Footer(){
             color: 'white',
             border: '1px solid white',
             margin: '25px',
-            fontFamily: 'monospace'
+            fontFamily: 'Noto Sans HK, sans-serif'
         }
     }
     return(
