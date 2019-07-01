@@ -1,20 +1,21 @@
 import React from "react";
 import "./Landing.css";
 import { Parallax } from "react-parallax";
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
+// import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 import LandingDivider from "../LandingDivider/LandingDivider";
 import ConnectOnIG from "../ConnectOnIG/ConnectOnIG";
 
 function Landing() {
-    const parallaxStr = 500
+  const parallaxStr = 500;
   return (
     <div>
-      <LazyLoadComponent>
-        <Parallax bgImage={require("../../Images/flowers.jpg")} strength={parallaxStr}>
-          <div style={{ height: "100vh" }} />
-        </Parallax>
-      </LazyLoadComponent>
+      <Parallax
+        bgImage={require("../../Images/flowers.jpg")}
+        strength={parallaxStr}
+      >
+        <div style={{ height: "100vh" }} />
+      </Parallax>
 
       <LandingDivider
         pictureURL="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg"
@@ -24,12 +25,13 @@ function Landing() {
         // button2Text='click me'
       />
 
-      <LazyLoadComponent>
-        <Parallax bgImage={require("../../Images/portrait1.jpg")} strength={parallaxStr}>
-          <div style={{ height: "100vh" }} />
-        </Parallax>
-        {/* <div className="Landing Photo2" /> */}
-      </LazyLoadComponent>
+      <Parallax
+        bgImage={require("../../Images/portrait1.jpg")}
+        strength={parallaxStr}
+      >
+        <div style={{ height: "100vh" }} />
+      </Parallax>
+      {/* <div className="Landing Photo2" /> */}
 
       <LandingDivider
         // pictureURL='https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg'
@@ -39,12 +41,13 @@ function Landing() {
         button2Text="Destination Intimate Weddings"
       />
 
-      <LazyLoadComponent>
-        <Parallax bgImage={require("../../Images/couple3.jpg")} strength={parallaxStr}>
-          <div style={{ height: "100vh" }} />
-        </Parallax>
-        {/* <div className="Landing Photo3" /> */}
-      </LazyLoadComponent>
+      <Parallax
+        bgImage={require("../../Images/couple3.jpg")}
+        strength={parallaxStr}
+      >
+        <div style={{ height: "100vh" }} />
+      </Parallax>
+      {/* <div className="Landing Photo3" /> */}
 
       <LandingDivider
         // pictureURL='https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg'
@@ -54,13 +57,14 @@ function Landing() {
         // button2Text='Destination Intimate Weddings'
       />
 
-      <LazyLoadComponent>
-        <Parallax bgImage={require("../../Images/couple5.jpg")} strength={parallaxStr}>
-          <div style={{ height: "100vh" }} />
-        </Parallax>
-        {/* <div className="Landing Photo4" /> */}
-      </LazyLoadComponent>
-      
+      <Parallax
+        bgImage={require("../../Images/couple5.jpg")}
+        strength={parallaxStr}
+      >
+        <div style={{ height: "100vh" }} />
+      </Parallax>
+      {/* <div className="Landing Photo4" /> */}
+
       <ConnectOnIG />
     </div>
   );
