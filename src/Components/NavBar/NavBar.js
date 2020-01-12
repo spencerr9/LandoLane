@@ -11,17 +11,19 @@ export default function NavBar() {
     <div id="wrapper">
       <div id="navLinks">
         <Link to="/">Home</Link>
-        <Link to="/familyportraits">Family & Portraits</Link>
+        <Link to="/portraits">Portraits</Link>
+        <Link to="/family">Family</Link>
         <Link to="/couples">Couples</Link>
-        <Link to="/live">Live</Link>
+        <Link to="/weddings">Weddings</Link>
         <Link to="/">
           <img
             src={require('../../Images/LandoLaneLogo.svg')}
             alt=""
           />
         </Link>
+        <Link to="/music">Music</Link>
         <Link to="/travel">Travel</Link>
-        <Link to="/products">Product Photography</Link>
+        <Link to="/products">Product Photos</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </div>

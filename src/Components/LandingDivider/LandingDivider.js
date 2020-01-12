@@ -6,7 +6,8 @@ import Button from "@material-ui/core/Button";
 export default function LandingDivider(props) {
   let styles = {
     buttonFont: {
-        fontFamily: 'Noto Sans HK, sans-serif'
+        fontFamily: 'Noto Sans HK, sans-serif',
+        fontWeight: 500
     }
 }
   return (
@@ -18,7 +19,7 @@ export default function LandingDivider(props) {
       })()}
       <div className="wordsContainer">
         <h1>{props.title}</h1>
-        <p>{props.text}</p>
+        <p style={{fontWeight: 400}} >{props.text}</p>
         <div>
           {(() => {
             if (props.button2Text && props.button1Text) {

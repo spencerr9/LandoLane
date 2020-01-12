@@ -7,7 +7,7 @@ import { Parallax } from "react-parallax";
 
 
 export default function FamilyPortraits(){
-    const parallaxStr = 300
+    const parallaxStr = 500
     return(
         <div>
             <NavBar />

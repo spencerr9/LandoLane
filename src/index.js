@@ -19,9 +19,10 @@ ReactDOM.render(
     <HashRouter>
         <Switch>
             <Route exact path='/' component={App} />
-            <Route path='/familyportraits' component={FamilyPortraits} />
+            <Route path='/portraits' component={FamilyPortraits} />
+            <Route path='/family' component={FamilyPortraits} />
             <Route path='/couples' component={Couples} />
-            <Route path='/live' component={Live} />
+            <Route path='/music' component={Live} />
             <Route path='/travel' component={Travel} />
             <Route path='/products' component={Products} />
             <Route path='/about' component={About} />
